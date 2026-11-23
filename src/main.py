@@ -138,6 +138,19 @@ def read_registry(timeout, log):
 # one endpoint
 # --------------------------------------------------------------------------
 
+def _trim(payload, n=25):
+    """A collection fetched without a page size can be huge; keep the record
+    small and honest about what was cut."""
+    if not isinstance(payload, dict):
+        return payload
+    for key in ("data", "items"):
+        if isinstance(payload.get(key), list) and len(payload[key]) > n:
+            payload = dict(payload)
+            payload[key] = payload[key][:n]
+            payload["_truncatedAt"] = n
+    return payload
+
+
 def scout(entry, timeout, deep, log):
     rec = {"title": entry.get("title", ""), "entryUrl": entry["url"],
            "checkedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
@@ -163,7 +176,7 @@ def scout(entry, timeout, deep, log):
     rec["license"] = sysobj.get("license")
     rec["contact"] = sysobj.get("contactName")
 
-    bodies, body_obj = [], None
+    bodies, body_obj, body_links = [], None, {}
     body_url = sysobj.get("body") or sysobj.get("bodies")
     if body_url:
         stb, bp, _ = get(body_url, timeout)
@@ -171,9 +184,19 @@ def scout(entry, timeout, deep, log):
         col = collection(bp)
         if col:
             src = bp.get("data") if isinstance(bp.get("data"), list) else bp.get("items")
-            bodies = [b.get("id") for b in (src or [])
+            src = src or []
+            bodies = [b.get("id") for b in src
                       if isinstance(b, dict) and b.get("id")]
             rec["bodiesCount"] = len(bodies)
+            # Some vendors (measured 23 Nov on München Transparent) put the
+            # collection links straight into the Body objects of the bodies
+            # collection, so no extra request is needed to find them.
+            for b in src:
+                if isinstance(b, dict) and any(
+                        isinstance(b.get(k), str) for k in
+                        ("meeting", "paper", "organization", "person")):
+                    body_links = b
+                    break
         if bodies:
             # The OParl-correct way to find a body's collections: the Body
             # object itself names them. Measured 23 Nov on more! Rubin and on
@@ -198,12 +221,24 @@ def scout(entry, timeout, deep, log):
         if col:
             avail[c] = col["count"]
             via[c] = "top_level"
-    if not avail and body_obj:
+    if not avail:
+        # The Body object names its own collections; guessing the plural path
+        # under the body id is not enough (measured: it is a 404 on more! Rubin
+        # and STERNBERG RIM). Singular keys first, then the plural guess.
+        source = body_links or (body_obj or {})
         for c in wanted:
-            link = body_obj.get(c) or body_obj.get(c.rstrip("s"))
+            link = (source.get(c) or source.get(c.rstrip("s"))
+                    or source.get(c.lower()))
+            if not isinstance(link, str) and bodies:
+                link = "%s/%s" % (bodies[0], c)
             if not isinstance(link, str):
                 continue
             stc, cp, _ = get("%s?limit=1" % link, timeout)
+            if stc == 400:
+                # Measured on STERNBERG RIM: the collection exists but refuses
+                # a page size with HTTP 400. Retry without the parameter.
+                stc, cp, _ = get(link, timeout)
+                cp = _trim(cp)
             if stc == 429:
                 rec["status"] = "rate_limited"
                 rec["error"] = "HTTP 429 while probing collections"
