@@ -44,7 +44,8 @@
       "type": "integer",
       "default": 15,
       "minimum": 3,
-      "maximum": 60
+      "maximum": 60,
+      "description": "Seconds a single request may take before the endpoint counts as unreachable. Municipal servers are sometimes slow; 15 is usually enough."
     }
   },
   "required": []
