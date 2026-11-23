@@ -1,0 +1,15 @@
+{
+  "$schema": "https://apify-projects.github.io/actor-json-schemas/output.json?v=0.3",
+  "actorOutputSchemaVersion": 1,
+  "title": "Output of the OParl Endpoint Scout",
+  "description": "One dataset of endpoint health records, plus one final item with _report=true carrying the run's tally (how many endpoints are alive, which vendors appear, how many declare a licence, how many were skipped).",
+  "type": "object",
+  "properties": {
+    "endpoints": {
+      "type": "string",
+      "title": "Endpoint health records",
+      "description": "One record per checked OParl endpoint with its measured status, vendor, OParl version, declared licence and readable collections. The last item is the run report (_report=true).",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    }
+  }
+}

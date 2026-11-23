@@ -1,0 +1,51 @@
+{
+  "title": "OParl Endpoint Scout",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "endpoints": {
+      "title": "Own endpoint list (optional)",
+      "type": "array",
+      "description": "Leave empty to scan the community registry (github.com/OParl/resources, fetched at run time). Fill it to check your own candidates, e.g. [\"https://www.leipzig.sitzung-online.de/oparl/system\", \"https://bochum.ratsinfomanagement.net/webservice/oparl/v1.1/system\"].",
+      "editor": "stringList",
+      "default": []
+    },
+    "filterText": {
+      "title": "Only endpoints containing this text",
+      "type": "string",
+      "description": "Substring match on the endpoint URL or the municipality title, e.g. \"sitzung-online\" or \"dresden\". Empty means no filter.",
+      "editor": "textfield",
+      "default": ""
+    },
+    "maxEndpoints": {
+      "title": "Maximum endpoints to check",
+      "type": "integer",
+      "default": 25,
+      "minimum": 1,
+      "maximum": 200,
+      "description": "Endpoints are sorted by URL before the cap is applied, so the covered set is predictable. The report always says how many were skipped."
+    },
+    "probeAllCollections": {
+      "title": "Probe all eleven OParl collections",
+      "type": "boolean",
+      "default": false,
+      "description": "Off probes meetings, papers and organizations only (3 requests per endpoint). On probes all eleven, which is about four times the requests and the slower, more expensive run."
+    },
+    "concurrency": {
+      "title": "Endpoints checked in parallel",
+      "type": "integer",
+      "default": 6,
+      "minimum": 1,
+      "maximum": 12,
+      "description": "Keep this low: municipal servers are shared public infrastructure and rate-limit."
+    },
+    "timeoutSeconds": {
+      "title": "Per-request timeout (seconds)",
+      "type": "integer",
+      "default": 15,
+      "minimum": 3,
+      "maximum": 60
+    }
+  },
+  "required": []
+}

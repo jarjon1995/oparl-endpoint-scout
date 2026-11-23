@@ -1,0 +1,510 @@
+[
+ {
+  "title": "Rahden",
+  "url": "http://rahden.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Samtgemeinde Sögel",
+  "url": "http://soegel.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Bleckede",
+  "url": "http://www.bleckede.sitzung-online.de/bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Stadt Boppard",
+  "url": "http://www.boppard.sitzung-online.de/bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "VG Hagenbach",
+  "url": "http://www.hagenbach.sitzung-online.de/bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Gemeinde Harsum",
+  "url": "http://www.harsum.sitzung-online.de/bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Stadt Parchim",
+  "url": "http://www.parchim.sitzung-online.de/bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Stadt Rosbach",
+  "url": "http://www.rosbach.sitzung-online.de/bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Stadt Bad Kreuznach",
+  "url": "https://bad-kreuznach-stadt.gremien.info/oparl/system"
+ },
+ {
+  "title": "Stadt Bad Pyrmont",
+  "url": "https://badpyrmont.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Köln",
+  "url": "https://buergerinfo.stadt-koeln.de/oparl/system"
+ },
+ {
+  "title": "Stadt Ulm",
+  "url": "https://buergerinfo.ulm.de/oparl/system"
+ },
+ {
+  "title": "Stadt Castrop-Rauxel",
+  "url": "https://castroprauxel.gremien.info/oparl"
+ },
+ {
+  "title": "Edenkoben",
+  "url": "https://edenkoben.gremien.info/oparl/system"
+ },
+ {
+  "title": "Emmelshausen",
+  "url": "https://emmelshausen.gremien.info/oparl/system"
+ },
+ {
+  "title": "Stadt Emsdetten",
+  "url": "https://emsdetten.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Enger",
+  "url": "https://enger.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Enkenbach-Alsenborn",
+  "url": "https://enkenbach-alsenborn.gremien.info/oparl/system"
+ },
+ {
+  "title": "Stadt Gronau",
+  "url": "https://gronau.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Herford",
+  "url": "https://herford.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Herxheim",
+  "url": "https://herxheim.gremien.info/oparl/system"
+ },
+ {
+  "title": "Gemeinde Hiddenhausen",
+  "url": "https://hiddenhausen.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Kirchlengern",
+  "url": "https://kirchlengern.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Kreis Viersen",
+  "url": "https://kis.kreis-viersen.de/webservice/oparl/v1.0/system"
+ },
+ {
+  "title": "Kronberg im Taunus",
+  "url": "https://kronberg.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Ladbergen",
+  "url": "https://ladbergen.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Lahr/Schwarzwald",
+  "url": "https://lahr.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Leopoldshohe",
+  "url": "https://leopoldshoehe.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Lohfelden",
+  "url": "https://lohfelden.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "OParl Mirror",
+  "url": "https://mirror.oparl.org/system"
+ },
+ {
+  "title": "Montabaur",
+  "url": "https://montabaur.gremien.info/oparl/system"
+ },
+ {
+  "title": "Stadt Dresden",
+  "url": "https://oparl.dresden.de/system"
+ },
+ {
+  "title": "Politik bei Uns - Aufbereitete Daten",
+  "url": "https://oparl.politik-bei-uns.de/system"
+ },
+ {
+  "title": "Stadt Münster",
+  "url": "https://oparl.stadt-muenster.de/system"
+ },
+ {
+  "title": "Stadt Pirmasens",
+  "url": "https://oparl.stadt-pirmasens.de/oparl/system"
+ },
+ {
+  "title": "Stadt Wuppertal",
+  "url": "https://oparl.wuppertal.de/oparl/system"
+ },
+ {
+  "title": "Landkreis Markisch-Oderland",
+  "url": "https://ratsinfo-online.net/landkreis-mol-bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Stadt Aachen",
+  "url": "https://ratsinfo.aachen.de/bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Gemeinde Aldenhoven",
+  "url": "https://ratsinfo.aldenhoven.de/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Bad Münstereifel",
+  "url": "https://ratsinfo.bad-muenstereifel.de/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Braunschweig",
+  "url": "https://ratsinfo.braunschweig.de/bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Stadt Brühl",
+  "url": "https://ratsinfo.bruehl.de/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Erkelenz",
+  "url": "https://ratsinfo.erkelenz.de/bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Gemeinde Langenberg",
+  "url": "https://ratsinfo.langenberg.de/webservice/oparl/v1.0/system"
+ },
+ {
+  "title": "Stadt Rheda-Wiedenbrück",
+  "url": "https://ratsinfo.rheda-wiedenbrueck.de/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Kolpingstadt Kerpen",
+  "url": "https://ratsinfo.stadt-kerpen.de/webservice/oparl/v1.0/system"
+ },
+ {
+  "title": "Gemeinde Steinhagen",
+  "url": "https://ratsinfo.steinhagen.de/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Wesseling",
+  "url": "https://ratsinfo.wesseling.de/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Leipzig",
+  "url": "https://ratsinformation.leipzig.de/allris_leipzig_public/oparl/system"
+ },
+ {
+  "title": "Aarbergen",
+  "url": "https://rim.ekom21.de/aarbergen/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Cölbe",
+  "url": "https://rim.ekom21.de/coelbe/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Ehringshausen",
+  "url": "https://rim.ekom21.de/ehringshausen/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Eschwege",
+  "url": "https://rim.ekom21.de/eschwege/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Fernwald",
+  "url": "https://rim.ekom21.de/fernwald/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Glashütten",
+  "url": "https://rim.ekom21.de/glashuetten/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Großalmerode",
+  "url": "https://rim.ekom21.de/grossalmerode/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Guxhagen",
+  "url": "https://rim.ekom21.de/guxhagen/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Hessisch Lichtenau",
+  "url": "https://rim.ekom21.de/hessisch-lichtenau/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Kreisstadt Homberg (Efze)",
+  "url": "https://rim.ekom21.de/homberg-efze/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Homberg (Ohm)",
+  "url": "https://rim.ekom21.de/homberg-ohm/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Ortenberg",
+  "url": "https://rim.ekom21.de/ortenberg/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Schmitten",
+  "url": "https://rim.ekom21.de/schmitten/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Schwarzenborn",
+  "url": "https://rim.ekom21.de/schwarzenborn/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Waldbrunn im Westerwald",
+  "url": "https://rim.ekom21.de/waldbrunn/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Willingen",
+  "url": "https://rim.ekom21.de/willingen/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Landeshauptstadt Dusseldorf",
+  "url": "https://ris-oparl.itk-rheinland.de/Oparl/system"
+ },
+ {
+  "title": "Stadt Freiburg",
+  "url": "https://ris.freiburg.de/oparl"
+ },
+ {
+  "title": "Stadt Goch",
+  "url": "https://ris.goch.de/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Krefeld",
+  "url": "https://ris.krefeld.de/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Schwalmtal",
+  "url": "https://ris.schwalmtal.de/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Willich",
+  "url": "https://ris.stadt-willich.de/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Wachtendonk",
+  "url": "https://ris.wachtendonk.de/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Rödinghausen",
+  "url": "https://roedinghausen.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Regionalverband Ruhr",
+  "url": "https://rvr-online.gremien.info/oparl"
+ },
+ {
+  "title": "Salzatal",
+  "url": "https://salzatal.gremien.info/oparl/system"
+ },
+ {
+  "title": "Gemeinde Schiffdorf",
+  "url": "https://schiffdorf.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Nörvenich",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4160/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Titz",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4170/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Vettweiß",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4180/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Hürtgenwald",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4220/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Inden",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4230/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Jülich",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4240/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Kreuzau",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4250/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Langerwehe",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4260/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Linnich",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4270/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Merzenich",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4280/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Pulheim",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4350/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Bruhl",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4410/webservice/oparl/v1.0/system"
+ },
+ {
+  "title": "Stadt Wesseling",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4420/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Erftstadt",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4490/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Bad Munstereifel",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4500/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Weilerswist",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4510/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Kreisverwaltung Euskirchen",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4520/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Kall",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4550/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Nettersheim",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4580/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Kolpingstadt Kerpen",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4770/webservice/oparl/v1.0/system"
+ },
+ {
+  "title": "Stadt Bedburg",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4780/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Bergheim",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4800/webservice/oparl/v1.0/system"
+ },
+ {
+  "title": "Stadt Bergheim",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4800/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Langenberg",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4883/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Kreis Gütersloh",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4890/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Klingenstadt Solingen",
+  "url": "https://sdnetrim.kdvz-frechen.de/rim4957/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Rees",
+  "url": "https://sessionnet-oparl.krz.de/oparl/bodies/5205"
+ },
+ {
+  "title": "Stadt Olpe",
+  "url": "https://sitzungsdienst.kdz-ws.net/gkz330/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Spenge",
+  "url": "https://spenge.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Stemwede",
+  "url": "https://stemwede.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Uplengen",
+  "url": "https://uplengen.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Velen",
+  "url": "https://velen.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Stadt Vlotho",
+  "url": "https://vlotho.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Gemeinde Wallenhorst",
+  "url": "https://wallenhorst.ratsinfomanagement.net/webservice/oparl/v1.1/system"
+ },
+ {
+  "title": "Verbandsgemeinde Weida-Land",
+  "url": "https://weida-land.gremien.info/oparl/system"
+ },
+ {
+  "title": "Westerburg",
+  "url": "https://westerburg.gremien.info/oparl/system"
+ },
+ {
+  "title": "Stadt Bonn",
+  "url": "https://www.bonn.sitzung-online.de/public/oparl/system"
+ },
+ {
+  "title": "Stadt Hagen",
+  "url": "https://www.hagen.de/buergerinfo/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Verbandsgemeinde Hagenbach",
+  "url": "https://www.hagenbach.sitzung-online.de/bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Gemeinde Harsum",
+  "url": "https://www.harsum.sitzung-online.de/bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Amt Itzstedt",
+  "url": "https://www.itzstedt.sitzung-online.de/bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Landkreis Ludwigslust-Parchim",
+  "url": "https://www.lwl-pch.sitzung-online.de/bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "München Transparent",
+  "url": "https://www.muenchen-transparent.de/oparl/v1.0"
+ },
+ {
+  "title": "Rosbach v. d. Höhe",
+  "url": "https://www.rosbach.sitzung-online.de/bi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Berlin Lichtenberg",
+  "url": "https://www.sitzungsdienst-lichtenberg.de/oi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Berlin Marzahn-Hellersdorf",
+  "url": "https://www.sitzungsdienst-marzahn-hellersdorf.de/oi/oparl/1.1/system.asp"
+ },
+ {
+  "title": "Berlin Pankow",
+  "url": "https://www.sitzungsdienst-pankow.de/oi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Berlin Reinickendorf",
+  "url": "https://www.sitzungsdienst-reinickendorf.de/oi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Berlin Steglitz-Zehlendorf",
+  "url": "https://www.sitzungsdienst-steglitz-zehlendorf.de/oi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Berlin Treptow-Köpenick",
+  "url": "https://www.sitzungsdienst-treptow-koepenick.de/oi/oparl/1.0/system.asp"
+ },
+ {
+  "title": "Gemeinde Glasau",
+  "url": "https://www.trave.sitzung-online.de/bi/oparl/1.0/system.asp"
+ }
+]

@@ -1,0 +1,36 @@
+{
+  "actorSpecification": 1,
+  "fields": {
+    "jsonSchema": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "Municipality or body name from the registry." },
+        "entryUrl": { "type": "string", "description": "The OParl System entry point that was checked." },
+        "checkedAt": { "type": "string", "description": "UTC timestamp of the check." },
+        "httpStatus": { "type": "integer", "description": "HTTP status of the entry point, null when unreachable." },
+        "latencyMs": { "type": "integer", "description": "Measured response time of the entry point in milliseconds." },
+        "status": {
+          "type": "string",
+          "enum": ["alive", "answers_but_no_collections", "error_object", "not_oparl_system", "unreachable", "scout_error"],
+          "description": "What the endpoint actually did. A 200 with an OParl Error object is error_object, not alive."
+        },
+        "error": { "type": "string", "description": "Why the endpoint failed, when it did." },
+        "oparlVersion": { "type": "string", "description": "OParl version the system declares, e.g. 1.0 or 1.1." },
+        "systemName": { "type": "string", "description": "Name the system reports for itself." },
+        "vendor": { "type": "string", "description": "Vendor URL the system declares (more! Rubin, STERNBERG, Session/SessionNet, ...)." },
+        "product": { "type": "string", "description": "Product URL the system declares, when it does." },
+        "license": { "type": "string", "description": "Licence the endpoint itself declares for its data, null when it declares none." },
+        "contact": { "type": "string", "description": "Contact name the endpoint publishes." },
+        "bodiesCount": { "type": "integer", "description": "Number of bodies (Körperschaften) the endpoint lists." },
+        "bodiesHttp": { "type": "integer", "description": "HTTP status of the bodies collection." },
+        "collections": {
+          "type": "object",
+          "description": "Which OParl collections answered at the top level, with the number of items the first page returned."
+        },
+        "collectionsScopedUnderBody": { "type": "string", "description": "Body id whose collections were used when the top level serves none (measured: some vendors only answer under a body)." },
+        "registry": { "type": "string", "description": "Where this endpoint came from: the community registry URL or 'user input'." }
+      },
+      "required": ["entryUrl", "status"]
+    }
+  }
+}
